@@ -40,6 +40,6 @@ const getTotalBalanceByGender = (users, gender) => {
     .reduce((total, user) => total + user.balance, 0);
 }
 
-console.log(getTotalBalanceByGender(allUsers, "male")); // 12053
+console.log(getTotalBalanceByGender(allUsers, "male")); // 12053!
 
-console.log(getTotalBalanceByGender(allUsers, "female")); // 8863
+console.log(getTotalBalanceByGender(allUsers, "female")); // 8863!
